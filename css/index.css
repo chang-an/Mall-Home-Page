@@ -1,0 +1,253 @@
+@charset "UTF-8";
+.sides {
+    position: relative;
+}
+.sides a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 604px;
+    background: url(../images/sides.jpg) no-repeat top center;
+}
+.main {
+    position: relative;
+}
+.slider {
+	position: relative;
+    width: 730px;
+    height: 453px;
+    //background-color: pink;
+    margin: 12px 0 0  220px;
+	float:left;
+	overflow:hidden;
+}
+
+.slider .wraploop{
+	position:relative;
+	width:9999px;
+	height:100%;
+}
+.slider .wraploop li{
+	display:none;
+	float:left;
+}
+.j-nav .j-wrap{
+	position:absolute;
+	top:20px;
+	width:998px;
+	height:433px;
+}
+.j-nav .j-wrap .snav{
+	margin:20px 10px;
+}
+.j-nav .j-wrap .j-detail{
+	position:absolute;
+	width:800px;
+	height:364px;
+	
+}
+.j-nav .j-wrap .j-detail .detail-item1{
+	position:relative;
+	padding-left: 80px;
+}
+.j-nav .j-wrap .j-detail .detail-item2{
+	position:relative;
+	top:30px;
+}
+.j-nav .j-wrap .j-detail .detail-item3{
+	position:relative;
+	top:60px;
+}
+.j-nav .j-wrap .j-detail .detail-item4{
+	position:relative;
+	top:90px;
+}
+.j-nav .j-wrap .j-detail .detail-item5{
+	position:relative;
+	top:120px;
+}
+.j-nav .j-wrap .j-detail .detail-item6{
+	position:relative;
+	top:150px;
+}
+.j-nav .j-wrap .j-detail .detail-item7{
+	position:relative;
+	top:210px;
+}
+.j-nav .j-wrap .j-detail dl dt{
+	position: absolute;
+    left: 0;
+    top: 7px;
+    width: 70px;
+    text-align: right;
+    font-weight: 700;
+}
+.j-nav .j-wrap .j-detail dl dd{
+	position:absolute;
+	top:5px;
+	left:100px;
+}
+.j-nav .j-wrap .j-detail dl dd a{
+	float: left;
+    margin: 3px 0;
+    padding: 0 10px;
+    height: 16px;
+    border-left: 1px solid #e0e0e0;
+    line-height: 16px;
+	font-weight:700;
+    white-space: nowrap;
+}
+.j-nav .j-wrap .snav a{
+	font-size:15px;
+	color:#fff;
+	background-color:#333;
+	margin:5px 2px 2px 2px;
+	font-weight:100;
+	line-height:24px;
+	padding:3px 10px;
+}
+.j-nav .j-wrap .snav span{
+	color:#fff;
+}
+.circle {
+    position: absolute;
+    bottom:8px;
+    left: 50%;
+    margin-left: -66px;
+}
+.circle .loop-img {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3E3E3E;
+    float: left;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.circle .loop-color {
+    background-color: #B61B1F;
+}
+.arrow-l, .arrow-r {
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top: -230px;
+    margin-top: -31px;
+    color: #fff;
+    font: 500 18px/62px "宋体";
+    text-align: center;
+    background: rgba(0,0,0,.2);
+	cursor: pointer; 
+}
+.arrow-l {
+    left: -300px;
+}
+.arrow-r {
+    right: -300px;
+}
+.arrow-l:hover,.arrow-r:hover {
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+.news {
+	float: right;
+    width: 248px;
+    height: 451px;
+    border: 1px solid #E4E4E4;
+    margin-top: 12px;
+}
+
+.jd-news {
+    height: 200px;
+    border-bottom: 1px dashed #E4E4E4;  /*虚线*/
+}
+.jd-news .dt, .lifeservi .dt {
+    height: 43px;
+    border-bottom: 1px dotted #E8E8E7; /*点线*/
+    line-height: 43px;
+}
+.jd-news .dt h3 ,.lifeservi .dt h3{
+    float: left;
+    font: 14px/43px "microsoft yahei";
+    color: #666;
+    padding-left: 15px;
+}
+.jd-news .dt a{
+    float: right;
+    font: 13px/43px "宋体";
+    margin-right:15px;
+}
+.jd-news .dd ul {
+    padding: 8px 0 0 15px;
+}
+.jd-news .dd li {
+    line-height: 28px;
+}
+.jd-news .dd li span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.lifeservi {
+    height:251px;
+    overflow: hidden;
+    width: 248px;
+}
+.lifeservi ul {
+    width: 252px;
+}
+.lifeservi ul li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    float: left;
+    margin-left: -1px;
+}
+.lifeservi  li a{
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top: 44px;
+    position: relative;
+}
+.lifeservi  li  i{
+    position: absolute;
+    top:12px;
+    left:18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/icon_lifeserv.png) no-repeat right top;
+}
+.lifeservi-icon2 a i {
+    background-position: right -25px;
+}
+.lifeservi .song {
+    background: url(../images/song.png) no-repeat right top;
+}
+
+/*11 huodong*/
+.todays {
+    position: relative;
+}
+.night {
+    margin: 10px 0 28px 0;
+}
+.night-r {
+    width:1000px;
+    height: 160px;
+    float: right;
+}
+.night-r ul {
+    width: 500%;
+    _width: 400%;
+}
+.night-r li {
+    float: left;
+    margin-right: 1px;
+}
+
+
